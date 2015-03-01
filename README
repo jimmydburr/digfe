@@ -1,0 +1,37 @@
+digfe README
+
+digfe is a free, GUI 'front end' for the DNS client program 'dig'. digfe strives
+to simplify the operation of 'dig' via a user friendly GUI interface presenting
+a functional layout of almost all of dig's many options. Query's can be saved or
+loaded for later reference.
+
+digfe supports virtually all of dig's many features and command line parameters.
+Probably the most notably lacking feature at this point is 'batch' or 'file'
+operation. This may be included in a later version if enough user demand is
+there.
+
+digfe was developed on Linux using Visual TCL 1.5.2 and should, therefore, run
+under any OS that supports tcl/tk including all versions of Linux/Unix, Windows,
+NT, 2000, etc. You do not need 'Visual Tcl' to run 'digfe' but you do need 
+tcl/tk or, at a minimum, the tcl/tk interpreter, a.k.a. 'wish'.
+
+Other than tcl/tk, 'digfe' requires the package 'Itcl 3.0', package 'Itk 3.0',
+package 'Iwidgets 3.0', and the program	'dig' to be available on your system 
+in the search path for executables. The 'Itcl' and 'Itk" packages are included
+in the standard install of most distros that include tcl/tk, e.g. RedHat.
+As for 'IWidgets', it is included with most distros that include tcl/tk but it
+isn't always part of the base installation, so you may have to *dig* a little 
+to find it (pun intended), or you can always find it at 
+http://www.scriptics.com home of tcl/tk. Follow the links to 'Itcl'.
+
+You can easily download the latest version of digfe via FTP from the following
+FTP directory:
+
+	ftp://freud.concoctedlogic.com/pub/digfe
+
+Or you can get it from the digfe home page:
+
+	http://www.concoctedlogic.com/digfe
+
+Jim Burrell
+jburrell@concoctedlogic.com

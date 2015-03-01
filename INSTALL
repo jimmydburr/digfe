@@ -1,0 +1,45 @@
+digfe INSTALL Instructions
+
+1. At this time there are no digfe RPM packages. Please let me know if you know of
+someone who might be available to package digfe as an RPM for redistribution.
+
+2. 'digfe' requires the following tcl/tk related packages 'Itcl 3.0', 'Itk 3.0',
+'Iwidgets 3.0', and, of course, the program 'dig'. dig should be available on 
+your system in the search path for executables, i.e. /usr/bin. The 'Itcl' and 
+'Itk" packages are included in the standard install of most distros that 
+include tcl/tk, e.g. RedHat. As for 'IWidgets', it is included with most distros 
+that include tcl/tk but it isn't always part of the base installation, so you 
+may have to *dig* a little to find it (pun intended), or you can always find it 
+at http://www.scriptics.com home of tcl/tk. Follow the links to 'Itcl'.
+
+3. Installing digfe is easy. Assuming you have downloaded a tar ball (e.g.
+digfe-0.7.3.tar.gz) simply gunzip and untar into the directory of your choice.
+
+Example: (as root)
+# cd /usr/local/share
+# tar -xvzf digfe-0.7.3.tar.gz
+..insure that the source file is executable..
+# cd digfe-0.7.3
+# chmod +x digfe-0.7.3.tcl
+..you may wish to add a symbolic link somewhere in your path..
+# ln -s /usr/local/share/digfe-0.7.3/digfe-0.7.3.tcl /usr/bin/digfe
+
+4. You should now be able to execute digfe.
+
+Example:
+$ digfe (and press enter)
+
+5. Bug Reports are helpful and solicited. Please report all bugs via:
+
+	http://www.concoctedlogic.com/digfe/digfebugreportform.html
+
+6. General feedback is also very helpful and solicited. Please send your
+comments, constructive criticism, or program requests to:
+
+	http://www.concoctedlogic.com/digfe/digfefeedbackform.html
+	
+Thanks,
+
+Jim Burrell
+jburrell@concoctedlogic.com
+
