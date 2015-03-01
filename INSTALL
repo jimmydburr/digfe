@@ -1,3 +1,6 @@
+PLEASE NOTE: This code is from 2001 and is posted here for reference only. At
+this time the code will work on debian with tcl8.5, Itcl 3, Itk 3, and Iwidgets 4.
+
 digfe INSTALL Instructions
 
 1. At this time there are no digfe RPM packages. Please let me know if you know of
